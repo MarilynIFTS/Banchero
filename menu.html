@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Banchero</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+            <img id="logo-nav" src="imgs/logoBanchero.png" alt="logo">
+            <nav class="nav-menu">
+                <ul id="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="reservar.html">Reservar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav>
+        <div id="user-controls">
+            <a id="btn-login" href="login.html">Login</a>
+            <img src="imgs/carrito.png" alt="carrito" id="logo-carrito">
+            <button id="btn-menu"><img src="imgs/iconizer-menu.svg" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <h2 class="page-title">Menú</h2>
+        <div class="menu-container">
+
+            <section class="dish-section">
+                <div class="dish-img"><img src="imgs/pizza-slide.jpg" alt="Pizza"></div>
+                <h3 class="dish-title">Pizza</h3>
+                <div class="input-list">
+                    <input type="text" id="input-name" placeholder="Nombre del plato">
+                    <input type="text" id="input-price" placeholder="Precio">
+                    <button id="btn-add" onclick="addDish()">+</button>
+                </div>
+                <!--<div class="dish">
+                    <h4 class="description">Muzzarella</h4>
+                    <h4 class="price">$10.000</h4>
+                    <div class="abm-container">
+                        <button class="btn-trash"><img src="imgs/icon-trash.svg" alt="trash icon"></button>
+                        <button class="btn-edit"><img src="imgs/icon-edit.svg" alt="edit icon"></button>
+                    </div>
+                </div>-->
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="sucurales-footer">
+                <ul>
+                    <li><h5><span>Sucursales</span></h5></li>
+                    <li><h5>Av. Almte. Brown 1220</h5></li>
+                    <li><h5>av. Corrientes 1300</h5></li>
+                </ul>
+                <ul>
+                    <li><h5><span>Teléfonos</span></h5></li>
+                    <li><h5>Av. Almte. Brown 1220</h5></li>
+                    <li><h5>av. Corrientes 1300</h5></li>
+                </ul>
+        </div>
+        <span class="footer-line"></span>
+        <div class="icons-footer">
+            <div class="logo-footer"><img src="imgs/bancheroFooter.png" alt="logo Banchero"></div>
+            <div class="social">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="imgs/icon-facebook.svg" alt=""></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="imgs/icon-whatsapp.svg" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="imgs/icon-instagram.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>

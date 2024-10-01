@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Banchero</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+            <img id="logo-nav" src="imgs/logoBanchero.png" alt="logo">
+            <nav class="nav-menu">
+                <ul id="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="reservar.html">Reservar</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav>
+        <div id="user-controls">
+            <button id="btn-login">Login</button>
+            <img src="imgs/carrito.png" alt="carrito" id="logo-carrito">
+            <button id="btn-menu"><img src="imgs/iconizer-menu.svg" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <form class="form register">
+            <h2 class="form-title">Formulario de registro</h2>
+            <div class="form-container">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-input" placeholder="">
+                    <label for="name" class="form-label">Nombre:</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" class="form-input" placeholder="">
+                    <label for="email" class="form-label">Email:</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phone" class="form-input" placeholder="">
+                    <label for="phone" class="form-label">Telefono:</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" class="form-input" placeholder="">
+                    <label for="password" class="form-label">Contraseña:</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="conf-password" class="form-input" placeholder="">
+                    <label for="conf-password" class="form-label">Confirmar contraseña:</label>
+                </div>
+            </div>
+            <input type="submit" class="form-submit" value="Registrarme">
+            <a href="login.html" class="form-link">Ya tengo una cuenta</a>
+        </form>
+    </main>
+    <footer>
+        <div class="sucurales-footer">
+                <ul>
+                    <li><h5><span>Sucursales</span></h5></li>
+                    <li><h5>Av. Almte. Brown 1220</h5></li>
+                    <li><h5>av. Corrientes 1300</h5></li>
+                </ul>
+                <ul>
+                    <li><h5><span>Teléfonos</span></h5></li>
+                    <li><h5>Av. Almte. Brown 1220</h5></li>
+                    <li><h5>av. Corrientes 1300</h5></li>
+                </ul>
+        </div>
+        <span class="footer-line"></span>
+        <div class="icons-footer">
+            <div class="logo-footer"><img src="imgs/bancheroFooter.png" alt="logo Banchero"></div>
+            <div class="social">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="imgs/icon-facebook.svg" alt=""></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="imgs/icon-whatsapp.svg" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="imgs/icon-instagram.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

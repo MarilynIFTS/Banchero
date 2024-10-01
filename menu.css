@@ -1,0 +1,97 @@
+main{
+    padding-top: 4rem;
+    background-color: #bedbf2;
+}
+
+h2{
+    display: inline-block;
+    background-color: #0563B1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.menu-container{
+    width: 70%;
+    margin: auto;
+    padding: 3rem;
+    background-color: white;
+}
+
+.dish-img{
+    width: 100%;
+    height: 15rem;
+    background-color: #0563B1;
+}
+
+.dish-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish-title{
+    font-size: 2rem;
+    background-color: #0563B1;
+    color: white;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.dish{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.description, .price{
+    font-size: 1.4rem;
+}
+
+.price{
+    margin-left: auto;
+    padding-right: 10%;
+}
+
+.abm-container{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.btn-trash, .btn-edit{
+    height: 75%;
+    padding: 0.4rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.abm-container img{
+    height: 100%;
+}
+
+.input-list{
+    margin-top: 1rem;
+    display: flex;
+    height: 5vh;
+}
+
+#btn-add{
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1rem;
+    border: 1px solid #0563B1;
+    transition: all 0.2s;
+}
+
+#btn-add:hover{
+    background-color: white;
+    color: #0563B1;
+    cursor: pointer;
+}
